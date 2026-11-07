@@ -152,7 +152,7 @@ def fig_enrollment(enr: pd.DataFrame, out_dir: str, captions: Dict[str, str]):
     ax.axhline(0.80, color=INK2, lw=0.8, ls=(0, (1, 2))); ax.text(enr.k.max(), 0.805, "DR4 target", ha="right", fontsize=10, color=INK2)
     ax.set_xlabel("Shots per enrolled species, k"); ax.set_ylabel("Macro-F1 on novel species")
     ax.set_xticks(sorted(enr.k.unique())); ax.set_ylim(0, 1.02)
-    ax.text(-0.12, 1.14, "(a)", transform=ax.transAxes, weight="bold")
+    ax.text(-0.12, 1.24, "(a)", transform=ax.transAxes, weight="bold")
 
     ax = axes[1]
     for i, t in enumerate(tags):
@@ -167,7 +167,7 @@ def fig_enrollment(enr: pd.DataFrame, out_dir: str, captions: Dict[str, str]):
     sd = _mse(enr, ["tag", "k"], "known_f1_drop_pts")
     ax.set_ylim(min(-0.3, float((sd["mean"] - sd["se"]).min()) - 0.2), max(2.4, float((sd["mean"] + sd["se"]).max()) + 0.2))
     # legend of (a) applies; a second legend here overlapped the k = 1 points and the DR5 label
-    ax.text(-0.12, 1.14, "(b)", transform=ax.transAxes, weight="bold")
+    ax.text(-0.12, 1.24, "(b)", transform=ax.transAxes, weight="bold")
     h, l = axes[0].get_legend_handles_labels()
     fig.legend(h, l, loc="lower center", ncol=2, title="Novel species drawn from", bbox_to_anchor=(0.5, 0.0),
                frameon=False)
