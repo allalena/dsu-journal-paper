@@ -1,0 +1,28 @@
+Table 3. Recognition, enrollment, open-set and transfer results (mean ± SE over n episodes).
+
+| Experiment                                          | k   | Metric                         | Mean ± SE     | n    |
+|:----------------------------------------------------|:----|:-------------------------------|:--------------|:-----|
+| Closed-set, deepweeds (ground, FP32)                | all | macro-F1                       | 0.818         | 2522 |
+| Closed-set, seedlings (ground, FP32)                | all | macro-F1                       | 0.252         | 1662 |
+| Closed-set, cofly (aerial, FP32)                    | all | macro-F1                       | 0.476         | 113  |
+| Enrollment, cross                                   | 1   | novel macro-F1 (DR4)           | 0.524 ± 0.026 | 30   |
+| Enrollment, cross                                   | 1   | known macro-F1 drop, pts (DR5) | 0.815 ± 0.062 | 30   |
+| Enrollment, cross                                   | 5   | novel macro-F1 (DR4)           | 0.601 ± 0.020 | 30   |
+| Enrollment, cross                                   | 5   | known macro-F1 drop, pts (DR5) | 0.775 ± 0.044 | 30   |
+| Enrollment, cross                                   | 10  | novel macro-F1 (DR4)           | 0.641 ± 0.020 | 30   |
+| Enrollment, cross                                   | 10  | known macro-F1 drop, pts (DR5) | 0.793 ± 0.029 | 30   |
+| Enrollment, within                                  | 1   | novel macro-F1 (DR4)           | 0.503 ± 0.027 | 30   |
+| Enrollment, within                                  | 1   | known macro-F1 drop, pts (DR5) | 1.612 ± 0.173 | 30   |
+| Enrollment, within                                  | 5   | novel macro-F1 (DR4)           | 0.635 ± 0.018 | 30   |
+| Enrollment, within                                  | 5   | known macro-F1 drop, pts (DR5) | 1.475 ± 0.175 | 30   |
+| Enrollment, within                                  | 10  | novel macro-F1 (DR4)           | 0.664 ± 0.018 | 30   |
+| Enrollment, within                                  | 10  | known macro-F1 drop, pts (DR5) | 1.380 ± 0.172 | 30   |
+| Open-set, cross                                     | —   | AUROC (DR6)                    | 0.935 ± 0.003 | 30   |
+| Open-set, cross                                     | —   | TPR at 5 % FPR                 | 0.598 ± 0.019 | 30   |
+| Open-set, cross                                     | —   | known false-rejection rate     | 0.086 ± 0.000 | 30   |
+| Open-set, within                                    | —   | AUROC (DR6)                    | 0.909 ± 0.006 | 30   |
+| Open-set, within                                    | —   | TPR at 5 % FPR                 | 0.679 ± 0.015 | 30   |
+| Open-set, within                                    | —   | known false-rejection rate     | 0.067 ± 0.001 | 30   |
+| Transfer: aerial-only enrollment (disjoint species) | 1   | macro-F1 (DR7)                 | 0.286 ± 0.017 | 30   |
+| Transfer: aerial-only enrollment (disjoint species) | 5   | macro-F1 (DR7)                 | 0.405 ± 0.011 | 30   |
+| Transfer: aerial-only enrollment (disjoint species) | 10  | macro-F1 (DR7)                 | 0.446 ± 0.008 | 30   |

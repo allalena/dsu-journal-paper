@@ -1,0 +1,47 @@
+# End-to-end pipeline on the synthetic latent-space suite.
+# Produces every figure and table so the paper assets can be checked before
+# real images or the Jetson are available.  All outputs are labelled synthetic.
+run_name: synthetic
+output_dir: outputs
+
+data:
+  kind: synthetic
+  dim: 128
+  n_per_class: 120
+  spread: 0.22
+  seed: 0
+
+backbone:
+  kind: synthetic
+  dim: 128
+  precision: fp32
+  compare_int8: true
+  model_bytes: 0
+
+benchmark:
+  shots: [1, 5, 10]
+  episodes: 20
+  n_novel: 2
+  test_frac: 0.3
+  openset_rule: global
+  openset_quantile: 0.95
+  prototypes_per_class: 1
+  seed: 0
+  base: deepweeds
+  cross_source: seedlings
+  ground: deepweeds
+  aerial_shared: aerial_shared
+  aerial_disjoint: cofly
+  profile_frames: 200
+
+# hardware_results: outputs/hardware_results.json   # uncomment after `weedenroll profile` on the Jetson
+
+cost:
+  n_nodes: 10
+  frames_per_node_season: 200000
+  new_species_per_season: 2
+  edge_hw_usd: 600                 # Orin Nano Super kit USD 399 (Oct 2026) + camera, enclosure, power
+  edge_hw_life_years: 3
+  edge_power_w: 10
+  cloud_inference_usd_per_1000: 1.5
+  cellular_usd_node_month: 20

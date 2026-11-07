@@ -1,0 +1,32 @@
+Table 4 (continued). Cost model assumptions.
+
+| Parameter                      | Value    | Source / note                                                                                                 |
+|:-------------------------------|:---------|:--------------------------------------------------------------------------------------------------------------|
+| n nodes                        | 10.0     |                                                                                                               |
+| frames per node season         | 200000.0 |                                                                                                               |
+| new species per season         | 2.0      |                                                                                                               |
+| season years                   | 1.0      |                                                                                                               |
+| edge hw usd                    | 600.0    | Orin Nano-class board (Jetson Orin Nano Super Developer Kit, USD 399 list, Oct 2026) + camera/enclosure/power |
+| edge hw life years             | 3.0      |                                                                                                               |
+| edge power w                   | 10.0     |                                                                                                               |
+| edge idle power w              | 4.0      |                                                                                                               |
+| edge hours per season          | 28.0     |                                                                                                               |
+| electricity usd kwh            | 0.15     |                                                                                                               |
+| enrollment minutes per species | 10.0     |                                                                                                               |
+| operator usd hour              | 25.0     | farm technician wage incl. overhead                                                                           |
+| thin device usd                | 150.0    |                                                                                                               |
+| thin device life years         | 3.0      |                                                                                                               |
+| cellular usd node month        | 20.0     | IoT data plan, 1–5 GB/month                                                                                   |
+| months per season              | 2.0      |                                                                                                               |
+| image kb                       | 150.0    |                                                                                                               |
+| egress usd gb                  | 0.09     | major cloud provider internet egress, first 10 TB                                                             |
+| cloud inference usd per 1000   | 1.5      | typical managed image-classification endpoint pricing tier                                                    |
+| cloud latency penalty usd      | 0.0      |                                                                                                               |
+| label images per species       | 300.0    |                                                                                                               |
+| label minutes per image        | 0.5      |                                                                                                               |
+| labeller usd hour              | 25.0     |                                                                                                               |
+| gpu train hours                | 4.0      |                                                                                                               |
+| gpu usd hour                   | 1.5      |                                                                                                               |
+| ml engineer hours per cycle    | 8.0      |                                                                                                               |
+| ml engineer usd hour           | 75.0     | contract ML engineer, fully loaded                                                                            |
+| redeploy minutes per node      | 15.0     |                                                                                                               |

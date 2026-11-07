@@ -1,0 +1,14 @@
+# Run ON the Jetson Orin Nano:  weedenroll profile --config configs/jetson.yaml
+# Requires: onnxruntime-gpu with TensorRT EP (JetPack wheel), tegrastats on PATH,
+# and weights/student.onnx from scripts/export_onnx.py.
+device_name: "NVIDIA Jetson Orin Nano (8 GB), JetPack 6, 15 W mode"
+image_size: 224
+frames: 300
+precisions: [fp32, int8]
+backbone:
+  kind: onnx
+  model_path: weights/student.onnx
+  image_size: 224
+  providers: [TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider]
+  trt_cache_dir: weights/trt_cache
+  # `precision: int8` from the precisions list sets trt_int8 via the loader

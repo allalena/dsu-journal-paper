@@ -1,0 +1,151 @@
+n_nodes,option,total,per_node
+1,A: Offline edge + field enrollment,208.37533333333334,208.37533333333334
+1,B: Cloud inference,1729.7,1729.7
+1,"C: Edge, closed-world, periodic retraining",1549.542,1549.542
+2,A: Offline edge + field enrollment,416.7506666666667,208.37533333333334
+2,B: Cloud inference,2122.4,1061.2
+2,"C: Edge, closed-world, periodic retraining",1762.084,881.042
+3,A: Offline edge + field enrollment,625.126,208.37533333333332
+3,B: Cloud inference,2515.1,838.3666666666667
+3,"C: Edge, closed-world, periodic retraining",1974.626,658.2086666666667
+4,A: Offline edge + field enrollment,833.5013333333334,208.37533333333334
+4,B: Cloud inference,2907.8,726.95
+4,"C: Edge, closed-world, periodic retraining",2187.168,546.792
+5,A: Offline edge + field enrollment,1041.8766666666668,208.37533333333334
+5,B: Cloud inference,3300.5,660.1
+5,"C: Edge, closed-world, periodic retraining",2399.71,479.942
+6,A: Offline edge + field enrollment,1250.252,208.37533333333332
+6,B: Cloud inference,3693.2,615.5333333333333
+6,"C: Edge, closed-world, periodic retraining",2612.252,435.37533333333334
+7,A: Offline edge + field enrollment,1458.6273333333334,208.37533333333334
+7,B: Cloud inference,4085.9,583.7
+7,"C: Edge, closed-world, periodic retraining",2824.794,403.542
+8,A: Offline edge + field enrollment,1667.0026666666668,208.37533333333334
+8,B: Cloud inference,4478.6,559.825
+8,"C: Edge, closed-world, periodic retraining",3037.3360000000002,379.66700000000003
+9,A: Offline edge + field enrollment,1875.378,208.37533333333332
+9,B: Cloud inference,4871.3,541.2555555555556
+9,"C: Edge, closed-world, periodic retraining",3249.8779999999997,361.0975555555555
+10,A: Offline edge + field enrollment,2083.7533333333336,208.37533333333334
+10,B: Cloud inference,5264.0,526.4
+10,"C: Edge, closed-world, periodic retraining",3462.42,346.242
+11,A: Offline edge + field enrollment,2292.1286666666665,208.37533333333332
+11,B: Cloud inference,5656.7,514.2454545454545
+11,"C: Edge, closed-world, periodic retraining",3674.962,334.08745454545453
+12,A: Offline edge + field enrollment,2500.504,208.37533333333332
+12,B: Cloud inference,6049.4,504.1166666666666
+12,"C: Edge, closed-world, periodic retraining",3887.504,323.95866666666666
+13,A: Offline edge + field enrollment,2708.8793333333333,208.37533333333334
+13,B: Cloud inference,6442.1,495.54615384615386
+13,"C: Edge, closed-world, periodic retraining",4100.046,315.38815384615384
+14,A: Offline edge + field enrollment,2917.2546666666667,208.37533333333334
+14,B: Cloud inference,6834.8,488.2
+14,"C: Edge, closed-world, periodic retraining",4312.588,308.042
+15,A: Offline edge + field enrollment,3125.63,208.37533333333334
+15,B: Cloud inference,7227.5,481.8333333333333
+15,"C: Edge, closed-world, periodic retraining",4525.13,301.67533333333336
+16,A: Offline edge + field enrollment,3334.0053333333335,208.37533333333334
+16,B: Cloud inference,7620.2,476.2625
+16,"C: Edge, closed-world, periodic retraining",4737.6720000000005,296.10450000000003
+17,A: Offline edge + field enrollment,3542.3806666666665,208.37533333333332
+17,B: Cloud inference,8012.9,471.3470588235294
+17,"C: Edge, closed-world, periodic retraining",4950.214,291.1890588235294
+18,A: Offline edge + field enrollment,3750.756,208.37533333333332
+18,B: Cloud inference,8405.6,466.9777777777778
+18,"C: Edge, closed-world, periodic retraining",5162.755999999999,286.81977777777774
+19,A: Offline edge + field enrollment,3959.1313333333333,208.37533333333332
+19,B: Cloud inference,8798.3,463.06842105263155
+19,"C: Edge, closed-world, periodic retraining",5375.298,282.9104210526316
+20,A: Offline edge + field enrollment,4167.506666666667,208.37533333333334
+20,B: Cloud inference,9191.0,459.55
+20,"C: Edge, closed-world, periodic retraining",5587.84,279.392
+21,A: Offline edge + field enrollment,4375.882,208.37533333333332
+21,B: Cloud inference,9583.7,456.3666666666667
+21,"C: Edge, closed-world, periodic retraining",5800.382,276.20866666666666
+22,A: Offline edge + field enrollment,4584.257333333333,208.37533333333332
+22,B: Cloud inference,9976.4,453.47272727272724
+22,"C: Edge, closed-world, periodic retraining",6012.924,273.3147272727273
+23,A: Offline edge + field enrollment,4792.632666666667,208.37533333333337
+23,B: Cloud inference,10369.1,450.83043478260873
+23,"C: Edge, closed-world, periodic retraining",6225.466,270.6724347826087
+24,A: Offline edge + field enrollment,5001.008,208.37533333333332
+24,B: Cloud inference,10761.8,448.4083333333333
+24,"C: Edge, closed-world, periodic retraining",6438.008,268.25033333333334
+25,A: Offline edge + field enrollment,5209.383333333333,208.37533333333332
+25,B: Cloud inference,11154.5,446.18
+25,"C: Edge, closed-world, periodic retraining",6650.55,266.022
+26,A: Offline edge + field enrollment,5417.758666666667,208.37533333333334
+26,B: Cloud inference,11547.2,444.12307692307695
+26,"C: Edge, closed-world, periodic retraining",6863.092,263.96507692307694
+27,A: Offline edge + field enrollment,5626.134,208.37533333333334
+27,B: Cloud inference,11939.9,442.2185185185185
+27,"C: Edge, closed-world, periodic retraining",7075.634,262.0605185185185
+28,A: Offline edge + field enrollment,5834.509333333333,208.37533333333334
+28,B: Cloud inference,12332.6,440.45
+28,"C: Edge, closed-world, periodic retraining",7288.176,260.29200000000003
+29,A: Offline edge + field enrollment,6042.884666666667,208.37533333333334
+29,B: Cloud inference,12725.3,438.803448275862
+29,"C: Edge, closed-world, periodic retraining",7500.718,258.64544827586207
+30,A: Offline edge + field enrollment,6251.26,208.37533333333334
+30,B: Cloud inference,13118.0,437.26666666666665
+30,"C: Edge, closed-world, periodic retraining",7713.26,257.1086666666667
+31,A: Offline edge + field enrollment,6459.635333333333,208.37533333333332
+31,B: Cloud inference,13510.7,435.82903225806456
+31,"C: Edge, closed-world, periodic retraining",7925.802,255.6710322580645
+32,A: Offline edge + field enrollment,6668.010666666667,208.37533333333334
+32,B: Cloud inference,13903.4,434.48125
+32,"C: Edge, closed-world, periodic retraining",8138.344,254.32325
+33,A: Offline edge + field enrollment,6876.386,208.37533333333334
+33,B: Cloud inference,14296.1,433.21515151515155
+33,"C: Edge, closed-world, periodic retraining",8350.886,253.05715151515153
+34,A: Offline edge + field enrollment,7084.761333333333,208.37533333333332
+34,B: Cloud inference,14688.8,432.0235294117647
+34,"C: Edge, closed-world, periodic retraining",8563.428,251.8655294117647
+35,A: Offline edge + field enrollment,7293.136666666667,208.37533333333334
+35,B: Cloud inference,15081.5,430.9
+35,"C: Edge, closed-world, periodic retraining",8775.970000000001,250.74200000000005
+36,A: Offline edge + field enrollment,7501.512,208.37533333333332
+36,B: Cloud inference,15474.2,429.8388888888889
+36,"C: Edge, closed-world, periodic retraining",8988.511999999999,249.68088888888886
+37,A: Offline edge + field enrollment,7709.887333333333,208.37533333333332
+37,B: Cloud inference,15866.9,428.83513513513515
+37,"C: Edge, closed-world, periodic retraining",9201.054,248.67713513513513
+38,A: Offline edge + field enrollment,7918.2626666666665,208.37533333333332
+38,B: Cloud inference,16259.6,427.8842105263158
+38,"C: Edge, closed-world, periodic retraining",9413.596,247.72621052631578
+39,A: Offline edge + field enrollment,8126.638,208.37533333333334
+39,B: Cloud inference,16652.3,426.98205128205126
+39,"C: Edge, closed-world, periodic retraining",9626.137999999999,246.82405128205124
+40,A: Offline edge + field enrollment,8335.013333333334,208.37533333333334
+40,B: Cloud inference,17045.0,426.125
+40,"C: Edge, closed-world, periodic retraining",9838.68,245.967
+41,A: Offline edge + field enrollment,8543.388666666666,208.37533333333332
+41,B: Cloud inference,17437.7,425.309756097561
+41,"C: Edge, closed-world, periodic retraining",10051.222,245.15175609756096
+42,A: Offline edge + field enrollment,8751.764,208.37533333333332
+42,B: Cloud inference,17830.4,424.53333333333336
+42,"C: Edge, closed-world, periodic retraining",10263.764,244.37533333333332
+43,A: Offline edge + field enrollment,8960.139333333334,208.37533333333337
+43,B: Cloud inference,18223.1,423.7930232558139
+43,"C: Edge, closed-world, periodic retraining",10476.306,243.63502325581396
+44,A: Offline edge + field enrollment,9168.514666666666,208.37533333333332
+44,B: Cloud inference,18615.8,423.0863636363636
+44,"C: Edge, closed-world, periodic retraining",10688.848,242.92836363636363
+45,A: Offline edge + field enrollment,9376.89,208.37533333333332
+45,B: Cloud inference,19008.5,422.4111111111111
+45,"C: Edge, closed-world, periodic retraining",10901.39,242.2531111111111
+46,A: Offline edge + field enrollment,9585.265333333335,208.37533333333337
+46,B: Cloud inference,19401.2,421.76521739130436
+46,"C: Edge, closed-world, periodic retraining",11113.932,241.60721739130437
+47,A: Offline edge + field enrollment,9793.640666666666,208.37533333333332
+47,B: Cloud inference,19793.9,421.1468085106383
+47,"C: Edge, closed-world, periodic retraining",11326.474,240.9888085106383
+48,A: Offline edge + field enrollment,10002.016,208.37533333333332
+48,B: Cloud inference,20186.6,420.5541666666666
+48,"C: Edge, closed-world, periodic retraining",11539.016,240.39616666666666
+49,A: Offline edge + field enrollment,10210.391333333335,208.37533333333337
+49,B: Cloud inference,20579.3,419.98571428571427
+49,"C: Edge, closed-world, periodic retraining",11751.558,239.8277142857143
+50,A: Offline edge + field enrollment,10418.766666666666,208.37533333333332
+50,B: Cloud inference,20972.0,419.44
+50,"C: Edge, closed-world, periodic retraining",11964.1,239.282

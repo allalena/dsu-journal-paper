@@ -1,0 +1,4 @@
+option,hardware,energy,connectivity,cloud_inference,data_transfer,enrollment_labour,retraining,redeployment,total,usd_per_node_season,usd_per_1000_decisions
+A: Offline edge + field enrollment,2000.0,0.42,0.0,0.0,0.0,83.33333333333334,0.0,0.0,2083.7533333333336,208.37533333333334,1.0418766666666668
+B: Cloud inference,500.0,0.0,400.0,3000.0,27.0,0.0,1337.0,0.0,5264.0,526.4,2.6319999999999997
+"C: Edge, closed-world, periodic retraining",2000.0,0.42,0.0,0.0,0.0,0.0,1337.0,125.0,3462.42,346.242,1.73121

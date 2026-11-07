@@ -1,0 +1,48 @@
+{
+  "deepweeds": {
+    "images": 17509,
+    "non_negative": 8403,
+    "species": 9,
+    "ok": true,
+    "per_class": {
+      "Chinee apple": 1125,
+      "Lantana": 1064,
+      "Negative": 9106,
+      "Parkinsonia": 1031,
+      "Parthenium": 1022,
+      "Prickly acacia": 1062,
+      "Rubber vine": 1009,
+      "Siam weed": 1074,
+      "Snake weed": 1016
+    }
+  },
+  "plant_seedlings": {
+    "images": 5539,
+    "species": 12,
+    "ok": true,
+    "per_class": {
+      "Black-grass": 309,
+      "Charlock": 452,
+      "Cleavers": 335,
+      "Common chickweed": 713,
+      "Common wheat": 253,
+      "Fat hen": 538,
+      "Loose silky-bent": 762,
+      "Maize": 257,
+      "Scentless mayweed": 607,
+      "Shepherd's purse": 274,
+      "Small-flowered cranesbill": 576,
+      "Sugar beet": 463
+    }
+  },
+  "cofly": {
+    "crops": 377,
+    "species": 3,
+    "ok": true,
+    "per_class": {
+      "Field bindweed": 283,
+      "Johnson grass": 73,
+      "Purslane": 21
+    }
+  }
+}

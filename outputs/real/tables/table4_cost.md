@@ -1,0 +1,7 @@
+Table 4. Season-level cost breakdown of the three deployment options (base case).
+
+| Option                                     | Hardware (USD)   | Energy (USD)   | Connectivity (USD)   | Cloud inference (USD)   | Data transfer (USD)   | Enrollment labour (USD)   | Retraining (USD)   | Redeployment (USD)   | Total (USD)   | Per node (USD)   | Per 1000 decisions (USD)   |
+|:-------------------------------------------|:-----------------|:---------------|:---------------------|:------------------------|:----------------------|:--------------------------|:-------------------|:---------------------|:--------------|:-----------------|:---------------------------|
+| A: Offline edge + field enrollment         | 2,000.00         | 0.42           | 0.00                 | 0.00                    | 0.00                  | 83.33                     | 0.00               | 0.00                 | 2,083.75      | 208.38           | 1.04                       |
+| B: Cloud inference                         | 500.00           | 0.00           | 400.00               | 3,000.00                | 27.00                 | 0.00                      | 1,337.00           | 0.00                 | 5,264.00      | 526.40           | 2.63                       |
+| C: Edge, closed-world, periodic retraining | 2,000.00         | 0.42           | 0.00                 | 0.00                    | 0.00                  | 0.00                      | 1,337.00           | 125.00               | 3,462.42      | 346.24           | 1.73                       |

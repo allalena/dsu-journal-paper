@@ -1,0 +1,34 @@
+new_species_per_season,option,total
+0,A: Offline edge + field enrollment,2000.42
+0,B: Cloud inference,3927.0
+0,"C: Edge, closed-world, periodic retraining",2000.42
+1,A: Offline edge + field enrollment,2042.0866666666668
+1,B: Cloud inference,4595.5
+1,"C: Edge, closed-world, periodic retraining",2731.42
+2,A: Offline edge + field enrollment,2083.7533333333336
+2,B: Cloud inference,5264.0
+2,"C: Edge, closed-world, periodic retraining",3462.42
+3,A: Offline edge + field enrollment,2125.42
+3,B: Cloud inference,5932.5
+3,"C: Edge, closed-world, periodic retraining",4193.42
+4,A: Offline edge + field enrollment,2167.0866666666666
+4,B: Cloud inference,6601.0
+4,"C: Edge, closed-world, periodic retraining",4924.42
+5,A: Offline edge + field enrollment,2208.7533333333336
+5,B: Cloud inference,7269.5
+5,"C: Edge, closed-world, periodic retraining",5655.42
+6,A: Offline edge + field enrollment,2250.42
+6,B: Cloud inference,7938.0
+6,"C: Edge, closed-world, periodic retraining",6386.42
+7,A: Offline edge + field enrollment,2292.0866666666666
+7,B: Cloud inference,8606.5
+7,"C: Edge, closed-world, periodic retraining",7117.42
+8,A: Offline edge + field enrollment,2333.7533333333336
+8,B: Cloud inference,9275.0
+8,"C: Edge, closed-world, periodic retraining",7848.42
+9,A: Offline edge + field enrollment,2375.42
+9,B: Cloud inference,9943.5
+9,"C: Edge, closed-world, periodic retraining",8579.42
+10,A: Offline edge + field enrollment,2417.0866666666666
+10,B: Cloud inference,10612.0
+10,"C: Edge, closed-world, periodic retraining",9310.42

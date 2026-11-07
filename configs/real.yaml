@@ -1,0 +1,60 @@
+# Real-image pipeline — the paper's numbers come from this config.
+#
+#   weedenroll data  --dst data --all                       # download + convert + verify
+#   weedenroll train --config configs/train.yaml            # teacher → distilled student
+#   weedenroll profile --config configs/jetson.yaml ...     # on the Orin Nano
+#   weedenroll run   --config configs/real.yaml
+run_name: real
+output_dir: outputs
+weights_dir: weights
+
+data:
+  kind: imagefolder
+  sets:
+    deepweeds:       {root: data/deepweeds,        platform: ground, exclude: [Negative]}
+    seedlings:       {root: data/plant_seedlings,  platform: ground}
+    cofly:           {root: data/cofly_crops,      platform: aerial}
+    # DR7 is reported from CoFly alone (real UAV imagery, species enrolled from
+    # the air).  No public dataset images the DeepWeeds species from a UAV, so
+    # there is no paired ground/aerial set.  If you collect one, add
+    #   aerial_shared: {root: data/<your_uav_set>, platform: aerial}
+    # and the degradation-and-recovery experiment runs automatically.
+
+backbone:
+  kind: torch                       # on the Jetson use kind: onnx + model_path (see configs/jetson.yaml)
+  arch: mobilenet_v3_small          # overridden by the checkpoint's own arch
+  out_dim: 128
+  weights_path: weights/student_distilled.pt
+  pretrained: false
+  image_size: 224
+  device: cuda
+  precision: fp32
+  compare_int8: true                # also evaluates dynamic-INT8 on CPU; Jetson INT8 comes from the profiler
+
+benchmark:
+  shots: [1, 5, 10]
+  episodes: 30
+  n_novel: 2
+  test_frac: 0.3
+  openset_rule: global
+  openset_quantile: 0.95
+  prototypes_per_class: 1
+  seed: 0
+  base: deepweeds
+  holdout_species: ["Prickly acacia", "Siam weed", "Snake weed"]   # must match configs/train.yaml
+  cross_source: seedlings
+  ground: deepweeds
+  aerial_shared: aerial_shared
+  aerial_disjoint: cofly
+
+hardware_results: outputs/hardware_results.json   # written by `weedenroll profile` on the Jetson
+
+cost:
+  n_nodes: 10
+  frames_per_node_season: 200000
+  new_species_per_season: 2
+  edge_hw_usd: 600                 # Orin Nano Super kit USD 399 (Oct 2026) + camera, enclosure, power
+  edge_hw_life_years: 3
+  edge_power_w: 10
+  cloud_inference_usd_per_1000: 1.5
+  cellular_usd_node_month: 20
