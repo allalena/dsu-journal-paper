@@ -1,0 +1,19 @@
+{
+  "classes": [
+    "Chinee apple",
+    "Lantana",
+    "Negative",
+    "Parkinsonia",
+    "Parthenium",
+    "Rubber vine"
+  ],
+  "holdout_species": [
+    "Prickly acacia",
+    "Siam weed",
+    "Snake weed"
+  ],
+  "teacher": "weights/teacher.pt",
+  "student": "weights/student_distilled.pt",
+  "onnx": "weights/student.onnx",
+  "out_dim": 128
+}

@@ -3,5 +3,4 @@ __pycache__/
 .pytest_cache/
 data/*
 !data/verify.json
-weights/
 outputs/synthetic/
